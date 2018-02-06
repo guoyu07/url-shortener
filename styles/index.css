@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background: #f5f5f5;
+    color: #202020;
+}
+input {
+    -webkit-box-sizing: border-box;
+}
+input[type=url]{
+    margin: 1rem 0;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 2px;
+    border: 1px solid #a4a4a4;
+    font-size: 1.3rem;
+    transition: all .2s ease;
+}
+
+input[type=url]:hover{
+    border: 1px solid #111111;
+}
+
+input[type=url]:focus{
+    outline: none;
+    border: 1px solid #104cfb;
+}
+
+input[type=url]{
+    padding: 1.1rem;
+}
+input.error{
+    border: 1px solid #F44336;
+}
+span.error{
+    color: #F44336;
+}
+input.error:hover{
+    border: 1px solid #FF5722;
+}
+input.error:focus{
+    border: 1px solid #FF5722;
+}
+button.loading {
+    background-color: #a4a4a4;
+}
+
+#submit-btn {
+    width: 100%;
+}
+#response {
+    height: 60px;
+}

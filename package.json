@@ -1,0 +1,35 @@
+{
+  "name": "url-shortener",
+  "version": "0.1.0",
+  "description": "Desktop client for GitHub's URL shortener",
+  "main": "main.js",
+  "scripts": {
+    "dev": "electron .",
+    "pack:mac": "electron-builder -m",
+    "pack:win": "electron-builder -w",
+    "pack:linux": "electron-builder -l",
+    "pack": "electron-builder -mwl"
+  },
+  "build": {
+    "mac": {
+      "icon": "./images/icon.icns"
+    },
+    "win": {
+      "icon": "./images/icon.ico"
+    },
+    "linux": {
+      "icon": "./images/icon.icns"
+    }
+  },
+  "keywords": [],
+  "author": "halo <haloislet@gmail.com> (https://github.com/haloislet)",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.7.11",
+    "electron-builder": "^19.55.2"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "wingcss": "^1.0.0-beta"
+  }
+}
