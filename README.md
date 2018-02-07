@@ -1,4 +1,4 @@
-GitHub's URL shortener ![](https://img.shields.io/github/license/mashape/apistatus.svg)
+GitHub's URL shortener ![](https://img.shields.io/npm/l/whistle.svg?style=flat-square)
 ===
 
 ![screenshot](./images/screenshot.png)
